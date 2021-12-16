@@ -15,7 +15,7 @@ button {
   font-size: 18px;
 }
 
-section {
+.section-1 {
   height: 100vh;
   width: 100%;
   background-image: url(../images/page1backgraundimg.svg);
@@ -115,5 +115,131 @@ nav a:hover {
 .content .imgcontent .bluebike {
   position: absolute;
   top: 320px;
+}
+
+.section-2 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  padding: 8% 14%;
+}
+
+.section-2 .textbox {
+  text-align: center;
+}
+
+.section-2 .textbox b {
+  font-size: 43px;
+  color: #06071C;
+}
+
+.section-2 .textbox p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #06071C;
+  opacity: 0.5;
+}
+
+.section-2 .cardbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+.section-2 .cardbox .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (264px)[4];
+      grid-template-columns: repeat(4, 264px);
+  -ms-grid-rows: 300px;
+      grid-template-rows: 300px;
+  gap: 30px;
+}
+
+.section-2 .cardbox .cards .card {
+  padding: 30px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 25px 40px rgba(6, 7, 28, 0.05);
+          box-shadow: 0px 25px 40px rgba(6, 7, 28, 0.05);
+}
+
+.section-2 .cardbox .cards .card .boximg {
+  margin-bottom: 15px;
+}
+
+.section-2 .cardbox .cards .card p {
+  margin: 15px 0;
+}
+
+.section-3 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  padding: 2% 14%;
+}
+
+.section-3 .textvideobox {
+  text-align: center;
+}
+
+.section-3 .textvideobox b {
+  font-size: 43px;
+}
+
+.section-3 .textvideobox p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #06071C;
+  opacity: 0.5;
+}
+
+.section-3 .videos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-3 .videos .video {
+  margin-top: 10px;
+  width: 1146px;
+  height: 648px;
+  background-image: url(../images/video.jpg);
+  position: relative;
+}
+
+.section-3 .videos .video .control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 133px;
+  height: 133px;
+  background: #2408E8;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.section-3 .videos .video .control .tri {
+  width: 52px;
+  height: 52px;
+  -webkit-clip-path: polygon(100% 50%, 0 0, 0 100%);
+          clip-path: polygon(100% 50%, 0 0, 0 100%);
+  background: #F7F7FD;
 }
 /*# sourceMappingURL=styles.css.map */
