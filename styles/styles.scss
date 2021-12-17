@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 $black: #06071C;
 $whitetextcolor: #F7F7FD;
+$buttoncolor: #2408E8;
 
 * {
     margin: 0;
@@ -11,7 +12,7 @@ $whitetextcolor: #F7F7FD;
 
 button {
     padding: 10px 30px;
-    background: #2408E8;
+    background: $buttoncolor;
     border: none;
     color: $whitetextcolor;
     font-size: 18px;
@@ -196,7 +197,7 @@ nav {
                 justify-content: center;
                 width: 133px;
                 height: 133px;
-                background: #2408E8;
+                background: $buttoncolor;
                 border-radius: 100%;
                 position: absolute;
                 top: 50%;
