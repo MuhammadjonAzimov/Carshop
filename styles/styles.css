@@ -63,7 +63,7 @@ nav a:hover {
 .content .textcontent {
   width: 50%;
   height: 100%;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .content .textcontent b {
@@ -81,7 +81,7 @@ nav a:hover {
 .content .textcontent .aboutproduct {
   height: 100px;
   width: 80%;
-  margin-top: 50px;
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,7 +114,7 @@ nav a:hover {
 
 .content .imgcontent .bluebike {
   position: absolute;
-  top: 320px;
+  top: 250px;
 }
 
 .section-2 {
